@@ -1,0 +1,17 @@
+package com.project.SeleniumTutorialsByVARSHA;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Web_Elements_Commands {
+	@Test
+	public void WebElemena() {
+		WebDriver driver = new ChromeDriver();
+		String str = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+		driver.get(str);
+		driver.manage().window().maximize();
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.project.SeleniumTutorialsByVARSHA;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Enb_Disb_Sele {
+	public void EDS() {
+		WebDriver driver = new ChromeDriver();
+		String str = "https://wordpress.com/";
+		driver.get(str);
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("(//*[normalize-space()='Get started'])[1]")).isDisplayed();
+	}
+
+}

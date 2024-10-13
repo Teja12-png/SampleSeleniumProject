@@ -1,0 +1,24 @@
+package com.project.SeleniumTutorialsByVARSHA;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Web_Elements_Commands {
+	@Test
+	public void WebElemena() {
+		WebDriver driver = new ChromeDriver();
+		String str = "https://www.google.com/";
+		driver.get(str);
+		driver.manage().window().maximize();
+		driver.findElement(By.name("q")).sendKeys("Automation");
+		
+		//clear
+		driver.findElement(By.name("q")).clear();
+		
+		String text = driver.findElement(By.name("btnK")).getText();
+		System.out.println("The text is:"+text);
+	}
+
+}

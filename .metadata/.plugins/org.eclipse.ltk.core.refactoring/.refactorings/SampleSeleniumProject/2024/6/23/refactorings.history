@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.project.SampleSeleniumProject.Practice&apos; to &apos;KeyDown_KeyUp_Methods&apos;&#x0D;&#x0A;- Original project: &apos;SampleSeleniumProject&apos;&#x0D;&#x0A;- Original element: &apos;com.project.SampleSeleniumProject.Practice&apos;&#x0D;&#x0A;- Renamed element: &apos;com.project.SampleSeleniumProject.KeyDown_KeyUp_Methods&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Practice&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.project.SampleSeleniumProject{Practice.java[Practice" matchStrategy="1" name="KeyDown_KeyUp_Methods" qualified="false" references="true" similarDeclarations="false" stamp="1717680279766" textual="false" version="1.0"/>
+</session>

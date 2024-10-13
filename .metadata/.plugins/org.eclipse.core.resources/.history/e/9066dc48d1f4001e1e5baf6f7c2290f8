@@ -1,0 +1,32 @@
+package com.project.SampleSeleniumProject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Testing {
+	@Test
+	
+	 public void test() {
+		 WebDriver driver = new ChromeDriver();
+		 
+		 String str = "https://iamsandesh23.github.io/selenium.github.io/";
+		 
+		 driver.get(str);
+		 driver.manage().window().maximize();
+		 
+		 WebElement element = driver.findElement(By.name("q"));
+		 element.sendKeys("abc");
+		 
+		 
+		 
+		 
+
+		 
+		
+		
+	}
+
+}
